@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.Set;
@@ -39,9 +40,10 @@ public class UserController {
     }
 
     @PostMapping("user")
-    public ResponseEntity<Object> createUser(@RequestBody UserCommand userCommand , HttpServletResponse res) {
+    public ResponseEntity<Object> createUser(@Valid @RequestBody UserCommand userCommand , HttpServletResponse res) {
         User user = User.builder().name(userCommand.getName()).birthdate(userCommand
                 .getBirthdate()).build();
+        System.out.println("helloooooooooo");
         User user1 = userService.saveUser(user);
         URI location = ServletUriComponentsBuilder.
                 fromCurrentRequest()

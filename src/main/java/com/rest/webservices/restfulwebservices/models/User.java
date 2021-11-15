@@ -3,7 +3,10 @@ package com.rest.webservices.restfulwebservices.models;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -19,6 +22,7 @@ public class User {
     @Column(name = "id")
     private Long id;
     @Column(name = "name")
+    @Size(min = 2)
     private String name;
     @Column(name = "birthdate")
     private LocalDate birthdate;
