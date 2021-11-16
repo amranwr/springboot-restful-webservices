@@ -38,7 +38,6 @@ public class UserController {
         if(!userService.deleteUserById(Long.valueOf(user_id)))
             throw new NotFoundException("this user : "+ user_id +" is not found !");
     }
-
     @PostMapping("user")
     public ResponseEntity<Object> createUser(@Valid @RequestBody UserCommand userCommand , HttpServletResponse res) {
         User user = User.builder().name(userCommand.getName()).birthdate(userCommand
