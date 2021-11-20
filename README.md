@@ -3,4 +3,5 @@
 - crud operations.
 - handling response exceptions.
 - use hateoas to add links to the response body.
-_ validation and constraint using spring validation.
+- validation and constraint using spring validation.
+- adding jaxon dependency for xml response and request formate.
