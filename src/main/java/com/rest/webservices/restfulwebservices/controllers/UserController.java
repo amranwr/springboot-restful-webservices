@@ -36,7 +36,8 @@ public class UserController {
         return userService.findAllUsers();
     }
 
-    @DeleteMapping("user/{user_id}/delete")
+
+    @GetMapping("user/{user_id}/delete")
     public void deleteUser(@PathVariable String user_id){
         if(!userService.deleteUserById(Long.valueOf(user_id)))
             throw new NotFoundException("this user : "+ user_id +" is not found !");
