@@ -55,6 +55,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager" selected="Spring Boot.RestfulWebServicesApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="springboot-restful-webservices-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="springboot-restful-webservices-master" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestfulWebServicesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-restful-webservices-master" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rest.webservices.restfulwebservices.RestfulWebServicesApplication" />
