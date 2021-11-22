@@ -7,4 +7,4 @@
 - validation and constraint using spring validation.
 - adding jaxon dependency for xml response and request formate.
 - adding swagger for api documentation.
-- adding authentication using spring security.
+- adding basic authentication using spring security.
