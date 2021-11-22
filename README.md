@@ -9,3 +9,4 @@
 - adding jaxon dependency for xml response and request formate.
 - adding swagger for api documentation.
 - adding basic authentication using spring security.
+- Circle Ci.
