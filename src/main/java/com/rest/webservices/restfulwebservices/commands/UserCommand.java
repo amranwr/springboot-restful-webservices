@@ -1,10 +1,7 @@
 package com.rest.webservices.restfulwebservices.commands;
 
-<<<<<<< HEAD
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
-=======
->>>>>>> 1f2997f800d05f5f324ca529e4afeb88fc02ae62
+
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

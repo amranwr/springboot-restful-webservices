@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94ddfe16-8d15-4868-ac67-6d09163856a6" name="Changes" comment="testing" />
+    <list default="true" id="94ddfe16-8d15-4868-ac67-6d09163856a6" name="Changes" comment="testing">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/webservices/restfulwebservices/commands/UserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservices/restfulwebservices/commands/UserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/webservices/restfulwebservices/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservices/restfulwebservices/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/webservices/restfulwebservices/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservices/restfulwebservices/models/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +80,7 @@
       <updated>1637596968395</updated>
       <workItem from="1637596970510" duration="309000" />
       <workItem from="1637597467420" duration="3413000" />
-      <workItem from="1637601304435" duration="1855000" />
+      <workItem from="1637601304435" duration="2212000" />
     </task>
     <task id="LOCAL-00001" summary="adding swagger to documentation to our api  closes #5">
       <created>1637601468601</created>
