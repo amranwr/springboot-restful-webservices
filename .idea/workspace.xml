@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b7d237c-4923-4185-825a-6b9bb24ee435" name="Changes" comment="adding swagger documentation closes #5">
+    <list default="true" id="8b7d237c-4923-4185-825a-6b9bb24ee435" name="Changes" comment="adding basic authentication using spring security closes #6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637604130051</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding basic authentication using spring security closes #6">
+      <created>1637608764751</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637608764751</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +253,7 @@
     <MESSAGE value="adding swagger to documentation to our api  closes #5" />
     <MESSAGE value="testing" />
     <MESSAGE value="adding swagger documentation closes #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding swagger documentation closes #5" />
+    <MESSAGE value="adding basic authentication using spring security closes #6" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding basic authentication using spring security closes #6" />
   </component>
 </project>
