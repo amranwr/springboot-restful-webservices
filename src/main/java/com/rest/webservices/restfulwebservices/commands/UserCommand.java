@@ -13,7 +13,6 @@ import java.util.Date;
 
 @Getter
 @Setter
-@ApiModel
 @AllArgsConstructor
 public class UserCommand {
     Long id ;
@@ -21,6 +20,5 @@ public class UserCommand {
 
     String name ;
     @Past
-    @ApiModelProperty(value = "birthdate should be in the past ")
-    LocalDate birthdate;
+     LocalDate birthdate;
 }
